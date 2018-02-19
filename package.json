@@ -1,0 +1,35 @@
+{
+  "name": "mevn-crud",
+  "version": "1.0.0",
+  "description": "CRUD utilizando el stack MEVN(MongoDB,Express,Vuejs,Nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "webpack -w"
+  },
+  "author": "Jefferson Bahamon",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.5",
+    "morgan": "^1.9.0",
+    "vue-axios": "^2.0.2",
+    "vue-material": "^1.0.0-beta-7",
+    "vuelidate": "^0.6.1"
+  },
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "pug": "^2.0.0-rc.4",
+    "style-loader": "^0.20.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.11.0"
+  }
+}
